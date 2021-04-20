@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Adivinha número</title>
+</head>
+<body>
+        <header class="cabecalho">
+            <a href="#"><h1>Adivinha número</h1></a>
+        </header>
+
+    <main class="principal">
+        <div class="digite-numero">
+            <label for="adivinha-numero">
+                Digite um número entre (0 - 10)
+            </label>
+                <input type="number" id="adivinha-numero" placeholder="0">
+
+            <button id="botaoJogar">Jogar</button>
+        </div>
+
+        <div class="mostra-tentativas">
+            <h2>Adivinhe o número sorteado!</h2>
+            <span>Tentativa: 0</span>
+        </div>
+
+        <button id="jogar-denovo">Jogar denovo</button>
+    </main>
+
+    <footer>
+        <span>Adivinha número, 2021 &copy;</span>
+    </footer>
+
+    <script src="./javascript/script.js"></script>
+</body>
+</html>
